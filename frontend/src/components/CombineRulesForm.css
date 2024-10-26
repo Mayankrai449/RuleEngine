@@ -1,0 +1,55 @@
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px -8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ff5722;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="button"] {
+  background-color: #ffa000;
+  margin-top: 5px;
+}
+
+button[type="button"]:hover {
+  background-color: #ff8f00;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.rule-string {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 4px;
+}
