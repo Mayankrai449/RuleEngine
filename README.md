@@ -1,13 +1,13 @@
 # Rule Engine with AST
 
-A sophisticated rule engine application built with Django, React, and PostgreSQL that uses Abstract Syntax Tree (AST) to determine user eligibility based on various attributes. The system supports dynamic creation, combination, and modification of conditional rules.
+A sophisticated rule engine application built with Django, React, and PostgreSQL that uses Abstract Syntax Tree (AST) to determine user eligibility based on various attributes. The system supports dynamic creation, combination, and evaluation of conditional rules.
 
 ![frontend](images/front.png)
 
 ## Features
 
 - 🌳 AST-based rule representation
-- 🔄 Dynamic rule creation and modification
+- 🔄 Dynamic rule creation and evaluation
 - 🤝 Rule combination capabilities
 - ✨ Interactive web interface
 - 🔍 Rule evaluation with JSON data
