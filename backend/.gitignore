@@ -1,2 +1,98 @@
 rule/migrations/*
 .env
+
+weatherapp/migrations/*
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*~
+db.sqlite3
+db.sqlite3-journal
+
+# Environment Variables
+.env
+*.env
+
+# Django Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Static and Media Files
+/staticfiles/
+/media/
+/static/
+
+# Compiled files
+*.egg-info/
+*.eggs/
+*.manifest
+
+# Logs and Reports
+*.log
+*.out
+*.pid
+*.gz
+*.swp
+*.swo
+*.coverage
+htmlcov/
+.tox/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Celery beat schedule files
+celerybeat-schedule
+
+# MyPy and other type checking
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Coverage Reports
+htmlcov/
+.coverage
+
+# Distribution and Packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pyre and Pylint
+.pyre/
+.pylintrc
+
+# Docker
+*.dockerfile
+docker-compose*.yml
+docker-compose*.yaml
