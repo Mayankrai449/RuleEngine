@@ -115,7 +115,8 @@ DB_PORT=5432
 ### Frontend Configuration
 Check `src/services/api.js` to configure the backend URL:
 ```javascript
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'http://127.0.0.1:8000';
+// Adjust as per your configuration
 ```
 
 ## Usage
